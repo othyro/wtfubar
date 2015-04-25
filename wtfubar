@@ -39,7 +39,7 @@ fi
 
 if [ -z "$acronyms" ]; then
 	if [ -z "$ACRONYMDB" ]; then
-		for f in /usr/local/share/misc/acronyms*; do
+		for f in /usr/local/share/wtfubar/acronyms*; do
 			case $f in
 			*-o)
 				if $offensive; then

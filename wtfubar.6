@@ -69,22 +69,22 @@ to the name of one or more space-separated file names of
 acronym databases.
 .El
 .Sh FILES
-.Bl -tag -width /usr/share/misc/acronyms.XXXX -compact
-.It Pa /usr/share/misc/acronyms
+.Bl -tag -width /usr/local/share/misc/acronyms.XXXX -compact
+.It Pa /usr/local/share/misc/acronyms
 default acronym database.
-.It Pa /usr/share/misc/acronyms-o
+.It Pa /usr/local/share/misc/acronyms-o
 default offensive acronym database.
-.It Pa /usr/share/misc/acronyms.comp
+.It Pa /usr/local/share/misc/acronyms.comp
 default computer-related acronym database.
 .El
 .Sh SEE ALSO
 .Xr make 1 ,
 .Xr pkg_info 1 ,
 .Xr whatis 1 ,
-.Xr fortune 6
+.Xr fortune 6 ,
+.Xr wtf 6
 .Sh HISTORY
 .Nm
-first appeared in
-.Nx 1.5 .
-Initially it only translated acronyms;
+was forked from wtf, which first appeared in NetBSD 1.5.
+Initially, wtf only translated acronyms;
 functionality to look up the meaning of terms in other sources was added later.

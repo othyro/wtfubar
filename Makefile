@@ -1,3 +1,4 @@
+CHMOD?=/bin/chmod
 SED?=/usr/bin/sed
 SH?=/bin/sh
 LOCALBASE?=/usr/local
@@ -15,5 +16,7 @@ install:
 	${INSTALL} acronyms acronyms-o acronyms.comp ${DESTDIR}${WTFUBARDIR}
 	${SED} -e "s|/bin/sh|${SH}|1;s|/usr/local|${LOCALBASE}|1" wtfubar > \
 		${DESTDIR}${BINDIR}/wtfubar
+	${CHMOD} +x ${DESTDIR}${BINDIR}/wtfubar
 	${INSTALL} ChangeLog.md README.md ${DESTDIR}${WTFUBARDOCDIR}
-	${INSTALL} wtfubar.6 ${DESTDIR}${MANDIR}/man6
+	${SED} -e "s|/usr/local|${LOCALBASE}|1" wtfubar.6 > \
+		${DESTDIR}${MANDIR}/man6/wtfubar.6

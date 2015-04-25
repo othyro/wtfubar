@@ -2,6 +2,9 @@
 
 ## Version 1.0.0
 
+* Added Makefile to automate installation;
+* Updated HISTORY in man page;
+* Changed database paths in shell script;
 * Added FGT, SOS, and SSDD - all of which are well-known - to acronyms-o;
 * Added KMFR (from Leisure Town);
 * Moved KNF from acronyms to acronyms.comp;

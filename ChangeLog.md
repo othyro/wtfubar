@@ -1,6 +1,6 @@
 # ChangeLog
 
-## Version 1.0
+## Version 1.0.0
 
 * Added FGT, SOS, and SSDD - all of which are well-known - to acronyms-o;
 * Added KMFR (from Leisure Town);

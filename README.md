@@ -20,6 +20,13 @@ MSU. Subculture acronyms and abbreviations are acceptable.
 As with the original wtf package, this package is released under the public
 domain license.
 
+## See Also
+The MirOS Project has a web-accessible version of wtf (as CGI) at
+https://www.mirbsd.org/wtf.htm with a form to look up acronyms online
+and a download link for their version of the acronyms database, which
+is similarily uncensored but with a much extended scope (e.g. acronyms
+in different languages, Morse code, etc).
+
 ## Contact
 If you don't have or don't want a Github account, patches can be mailed to:
 othyro@users.noreply.github.com and they will be integrated as free time

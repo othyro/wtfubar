@@ -1,5 +1,19 @@
 # ChangeLog
 
+## Version 2.0.0
+
+* Changed behaviour to print search target on each line. Idea from jmcneill@;
+* Requires sed(1) at runtime for aforementioned behaviour change;
+* Added more acronyms;
+* Updated ChangeLog.md for last release;
+* Second "major" release;
+
+## Version 1.1.0
+
+* Added more acronyms;
+* Linked to MirBSD's acronym database.
+* First minor release;
+
 ## Version 1.0.0
 
 * Added Makefile to automate installation;

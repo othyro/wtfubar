@@ -76,7 +76,7 @@ for i; do
 	ans="$(fgrep -h "$target" $acronyms 2>/dev/null \
 	     | sed -ne "\|^$target[[:space:]]|s|^$target[[:space:]]*||p")"
 	if [ -n "$ans" ] ; then
-		echo "$target: $ans"
+		echo "$ans" | sed -e "s/^/$target: /g";
 		continue
 	fi
 

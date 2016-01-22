@@ -1,5 +1,14 @@
 # ChangeLog
 
+## Version 2.2.0
+
+* A few more entries.
+This release is dedicated to Gregory Alan Elliott and celebrates his acquittal.
+
+## Version 2.1.0
+
+* Added more acronyms to the chagrin of SJWs everywhere.
+
 ## Version 2.0.0
 
 * Changed behaviour to print search target on each line. Idea from jmcneill@;

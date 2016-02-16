@@ -1,5 +1,8 @@
 # ChangeLog
 
+## Version 2.3.0
+* Some new entries that are used on the Internet mostly.
+
 ## Version 2.2.0
 
 * A few more entries.

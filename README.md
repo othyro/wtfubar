@@ -14,7 +14,8 @@ Yes, please! Let's keep it relevant to the life, the Internet, and computers.
 This package, its authors, and contributors do not assume that it's all-
 inclusive, so please send your suggestions. Include some source - Urban
 Dictionary, Encyclopedia Dramatica, etc. - with your addition, so we're not
-MSU. Subculture acronyms and abbreviations are acceptable.
+MSU. Subculture acronyms and abbreviations are acceptable. The whitespace
+separator for the acronyms files is one tab, not spaces.
 
 ## License
 As with the original wtf package, this package is released under the public

@@ -1,5 +1,21 @@
 # ChangeLog
 
+## Version 2.6.0
+
+* Added: FTMP, HHOK to the nice acronyms and moved one to the filthy list;
+* Added: FTGE, GTFOH, GTFOMN, PAWG, SYFAU to the offensive acronyms;
+* Updated README;
+
+## Version 2.5.0
+
+* Added two new acronyms;
+
+## Version 2.4.0
+
+* Merged #3 from @alexander255;
+* Updated README requested by him and @mirabilos;
+* Added variants of SMH;
+
 ## Version 2.3.0
 * Some new entries that are used on the Internet mostly.
 
